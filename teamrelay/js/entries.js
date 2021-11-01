@@ -141,6 +141,7 @@ bookNowBtn.addEventListener("click", function(){
     let stackerNameVal = stackerName.value
     if (stackerNameVal == ""){
         alert ("Stacker name cannot be blank!")
+        ele[num - 1].focus()
         return
     }
     //alert (num)
@@ -149,11 +150,13 @@ bookNowBtn.addEventListener("click", function(){
     let resultTimeVal = parseFloat(resultTime.value)
     if (isNaN(resultTimeVal)){
         alert ("Please enter Result (Number only)!")
+        ele[num - 1].focus()
         return;
     }
 
     if (resultTimeVal == 0){
         alert ("Result cannot be 0!")
+        ele[num - 1].focus()
         return
     }
 
@@ -161,6 +164,7 @@ bookNowBtn.addEventListener("click", function(){
     let penaltyPointsVal = parseInt(penaltyPoints.value)
     if (isNaN(penaltyPointsVal)){
         alert ("Please enter Penalty Points (Number only)!")
+        ele[num - 1].focus()
         return;
     }
 
@@ -216,7 +220,7 @@ function SaveNow(getTeam, getStacker, getResult, getPenalty, getRound){
     
     loader.className += 'hidden';  
     alert(json.result.name + " result saved in the database!")
-      
+    ele[num - 1].focus()
 
     });
       
