@@ -17,6 +17,7 @@ for(var i=0; i<ele.length; i++){
         alert("Round " + num + " selected!");
         let roundLable = document.getElementById("roundLabel")
         roundLable.innerHTML = "Please select Round: (Round " + num + " Selected)"
+        ele[num - 1].focus()
     });
 }
 
