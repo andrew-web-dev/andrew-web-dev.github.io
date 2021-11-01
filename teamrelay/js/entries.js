@@ -7,12 +7,16 @@
 
 //})
 //Display selected round number and put in Variable (button group bootstrap)
+
+//Button Group (Round number)
 var num = null;
 var ele = document.querySelectorAll(".btn-group > button.btn");
 for(var i=0; i<ele.length; i++){
     ele[i].addEventListener("click", function(){
         num = +this.value;
         alert("Round " + num + " selected!");
+        let roundLable = document.getElementById("roundLabel")
+        roundLable.innerHTML = "Please select Round: (Round " + num + " Selected)"
     });
 }
 
@@ -82,8 +86,8 @@ getFocus2.addEventListener("click", function(){
 
 
 var loader = document.getElementById('loading');
-var delay = 2000;
 
+//var delay = 2000;
 //Test Button
 //let testBtn = document.getElementById("testBtn")
 //testBtn.addEventListener("click", function () {
