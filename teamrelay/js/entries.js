@@ -85,8 +85,8 @@ var loader = document.getElementById('loading');
 var delay = 2000;
 
 //Test Button
-let testBtn = document.getElementById("testBtn")
-testBtn.addEventListener("click", function () {
+//let testBtn = document.getElementById("testBtn")
+//testBtn.addEventListener("click", function () {
   //alert("clicked")
   //let testnum = 12.000000002222201
   //testnum = testnum.toFixed(3)
@@ -98,16 +98,16 @@ testBtn.addEventListener("click", function () {
 
         //var source = els2.target || els2.srcElement;
         //e.preventDefault();        
-        loader.className = loader.className.replace('hidden', '');
+        //loader.className = loader.className.replace('hidden', '');
         
         
-        setTimeout(function() {             
+        //setTimeout(function() {             
          //   window.open(source.href);            
-            loader.className += 'hidden';
+            //loader.className += 'hidden';
             
-        }, delay);
+        //}, delay);
 //})
-    }, false);
+   // }, false);
 //test button ends
 
 
