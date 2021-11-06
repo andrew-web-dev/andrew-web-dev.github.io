@@ -118,6 +118,10 @@ useRedGem.addEventListener("click", function(){
     geming.style.border="7px solid navy";
     /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
     alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+    defend.disabled = true
 
     sendRequest(pinNumVal, user, selectedGem)
 })
@@ -133,6 +137,10 @@ useBlueGem.addEventListener("click", function(){
     geming.style.border="7px solid navy";
     /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
     alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+    defend.disabled = true
 
     sendRequest(pinNumVal, user, selectedGem)
 })
@@ -148,6 +156,10 @@ useGreenGem.addEventListener("click", function(){
     geming.style.border="7px solid navy";
     /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
     alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+    defend.disabled = true
 
     sendRequest(pinNumVal, user, selectedGem)
 })
@@ -163,6 +175,10 @@ dontUseGem.addEventListener("click", function(){
     geming.style.border="7px solid navy";
     /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
     alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+    defend.disabled = true
 
     //sendRequest(pinNumVal, user, selectedGem)
 })
