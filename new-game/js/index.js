@@ -226,5 +226,6 @@ function enableBtns(){
     blueGem.disabled = false
     greenGem.disabled = false
     defend.disabled = false
+    enterBtn.disabled = true
 
 }
