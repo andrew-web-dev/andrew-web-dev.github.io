@@ -5,6 +5,7 @@ let redGem = document.getElementById("redGem")
     let blueGem = document.getElementById("blueGem")
     let greenGem = document.getElementById("greenGem")
     let defend = document.getElementById("defend")
+    let enterBtn = document.getElementById("enter")
 
     redGem.disabled = true
     blueGem.disabled = true
@@ -13,7 +14,7 @@ let redGem = document.getElementById("redGem")
 
 
 //enter pin number here
-let enterBtn = document.getElementById("enter")
+
 enterBtn.addEventListener("click", function(){
     let pinNum = document.getElementById("pin")
     pinNumVal = pinNum.value
