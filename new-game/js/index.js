@@ -111,8 +111,7 @@ useRedGem.addEventListener("click", function(){
     let selectedGem = "Red"
     let display = document.getElementById("display")
     let geming = document.getElementById("gemingred")
-    let redurl = "https://cdn3.iconfinder.com/data/icons/natural-resources/500/vab1219_41_red_gem_isometric-256.png"
-    let size = "width:200px;height:200px;"
+    
 
     display.innerHTML = "<h1>You chose to use:</h1>"
     geming.style.border="7px solid navy";
@@ -122,6 +121,7 @@ useRedGem.addEventListener("click", function(){
     blueGem.disabled = true
     greenGem.disabled = true
     defend.disabled = true
+    enterBtn.disabled = true
 
     sendRequest(pinNumVal, user, selectedGem)
 })
@@ -130,8 +130,7 @@ useBlueGem.addEventListener("click", function(){
     let selectedGem = "Blue"
     let display = document.getElementById("display")
     let geming = document.getElementById("gemingblue")
-    let redurl = "https://cdn3.iconfinder.com/data/icons/natural-resources/500/vab1219_41_red_gem_isometric-256.png"
-    let size = "width:200px;height:200px;"
+    
 
     display.innerHTML = "<h1>You chose to use:</h1>"
     geming.style.border="7px solid navy";
@@ -141,6 +140,7 @@ useBlueGem.addEventListener("click", function(){
     blueGem.disabled = true
     greenGem.disabled = true
     defend.disabled = true
+    enterBtn.disabled = true
 
     sendRequest(pinNumVal, user, selectedGem)
 })
@@ -149,8 +149,7 @@ useGreenGem.addEventListener("click", function(){
     let selectedGem = "Green"
     let display = document.getElementById("display")
     let geming = document.getElementById("geminggreen")
-    let redurl = "https://cdn3.iconfinder.com/data/icons/natural-resources/500/vab1219_41_red_gem_isometric-256.png"
-    let size = "width:200px;height:200px;"
+    
 
     display.innerHTML = "<h1>You chose to use:</h1>"
     geming.style.border="7px solid navy";
@@ -160,6 +159,7 @@ useGreenGem.addEventListener("click", function(){
     blueGem.disabled = true
     greenGem.disabled = true
     defend.disabled = true
+    enterBtn.disabled = true
 
     sendRequest(pinNumVal, user, selectedGem)
 })
@@ -168,8 +168,7 @@ dontUseGem.addEventListener("click", function(){
     let selectedGem = "Defend"
     let display = document.getElementById("display")
     let geming = document.getElementById("gemingnone")
-    let redurl = "https://cdn3.iconfinder.com/data/icons/natural-resources/500/vab1219_41_red_gem_isometric-256.png"
-    let size = "width:200px;height:200px;"
+    
 
     display.innerHTML = "<h1>You chose to use:</h1>"
     geming.style.border="7px solid navy";
@@ -179,6 +178,7 @@ dontUseGem.addEventListener("click", function(){
     blueGem.disabled = true
     greenGem.disabled = true
     defend.disabled = true
+    enterBtn.disabled = true
 
     //sendRequest(pinNumVal, user, selectedGem)
 })
