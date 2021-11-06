@@ -23,73 +23,97 @@ enterBtn.addEventListener("click", function(){
     
     //alert(pinNumVal)
 
-    if (pinNumVal == 3578){
-        helloplayer.innerHTML = "<h5>Hello Micah Ng!</h5>"
-        user = "Micah Ng"
+    if (pinNumVal == 1198){
+        helloplayer.innerHTML = "<h5>Hello Loo Kingsley!</h5>"
+        user = "Loo Kingsley"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 9035){
-        helloplayer.innerHTML = "<h5>Hello Lai Xin Rui!</h5>"
-        user = "Lai Xin Rui"
+    if (pinNumVal == 2167){
+        helloplayer.innerHTML = "<h5>Hello Ke Xuan!</h5>"
+        user = "Ke Xuan"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 1029){
-        helloplayer.innerHTML = "<h5>Hello Ethan Tan!</h5>"
-        user = "Ethan Tan"
+    if (pinNumVal == 4162){
+        helloplayer.innerHTML = "<h5>Hello Justen!</h5>"
+        user = "Justen"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 6588){
-        helloplayer.innerHTML = "<h5>Hello Tee Jun Yao!</h5>"
-        user = "Tee Jun Yao"
+    if (pinNumVal == 8972){
+        helloplayer.innerHTML = "<h5>Hello Cheng Eu!</h5>"
+        user = "Cheng Eu"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 1072){
-        helloplayer.innerHTML = "<h5>Hello Joshua Lu!</h5>"
-        user = "Joshua Lu"
+    if (pinNumVal == 3506){
+        helloplayer.innerHTML = "<h5>Hello Chun Kit!</h5>"
+        user = "Chun Kit"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 4084){
-        helloplayer.innerHTML = "<h5>Hello Hayyan!</h5>"
-        user = "Hayyan"
+    if (pinNumVal == 2830){
+        helloplayer.innerHTML = "<h5>Hello Casey!</h5>"
+        user = "Casey"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 9852){
-        helloplayer.innerHTML = "<h5>Hello Luis Khoo!</h5>"
-        user = "Luis Khoo"
+    if (pinNumVal == 7051){
+        helloplayer.innerHTML = "<h5>Hello Ke Nuo!</h5>"
+        user = "Ke Nuo"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 5691){
-        helloplayer.innerHTML = "<h5>Hello Jaivi!</h5>"
-        user = "Jaivi"
+    if (pinNumVal == 9073){
+        helloplayer.innerHTML = "<h5>Hello Chun Pin!</h5>"
+        user = "Chun Pin"
         password = 1
         enableBtns()
         return
     }
 
-    if (pinNumVal == 3839){
-        helloplayer.innerHTML = "<h5>Hello Sin Zi Feng!</h5>"
-        user = "Sin Zi Feng"
+    if (pinNumVal == 7809){
+        helloplayer.innerHTML = "<h5>Hello Joshua Wong!</h5>"
+        user = "Joshua Wong"
+        password = 1
+        enableBtns()
+        return
+    }
+
+    if (pinNumVal == 2105){
+        helloplayer.innerHTML = "<h5>Hello Jin Hao!</h5>"
+        user = "Jin Hao"
+        password = 1
+        enableBtns()
+        return
+    }
+
+    if (pinNumVal == 5086){
+        helloplayer.innerHTML = "<h5>Hello Ee Dong!</h5>"
+        user = "Ee Dong"
+        password = 1
+        enableBtns()
+        return
+    }
+
+    if (pinNumVal == 3583){
+        helloplayer.innerHTML = "<h5>Hello Jia Hang!</h5>"
+        user = "Jia Hang"
         password = 1
         enableBtns()
         return
