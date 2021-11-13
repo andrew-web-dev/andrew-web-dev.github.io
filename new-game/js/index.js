@@ -4,12 +4,14 @@ let user = ""
 let redGem = document.getElementById("redGem")
     let blueGem = document.getElementById("blueGem")
     let greenGem = document.getElementById("greenGem")
+    let purpleGem = document.getElementById("purpleGem")
     let defend = document.getElementById("defend")
     let enterBtn = document.getElementById("enter")
 
     redGem.disabled = true
     blueGem.disabled = true
     greenGem.disabled = true
+    purpleGem.disabled = true
     defend.disabled = true
 
 
@@ -106,6 +108,7 @@ enterBtn.addEventListener("click", function(){
 let useRedGem = document.getElementById("redGem")
 let useBlueGem = document.getElementById("blueGem")
 let useGreenGem = document.getElementById("greenGem")
+let usePurpleGem = document.getElementById("purpleGem")
 let dontUseGem = document.getElementById("defend")
 
 useRedGem.addEventListener("click", function(){
@@ -124,7 +127,7 @@ useRedGem.addEventListener("click", function(){
     defend.disabled = true
     enterBtn.disabled = true
 
-    sendRequest(pinNumVal, user, selectedGem)
+    sendRequest(user, selectedGem)
 })
 
 useBlueGem.addEventListener("click", function(){
@@ -143,7 +146,7 @@ useBlueGem.addEventListener("click", function(){
     defend.disabled = true
     enterBtn.disabled = true
 
-    sendRequest(pinNumVal, user, selectedGem)
+    sendRequest(user, selectedGem)
 })
 
 useGreenGem.addEventListener("click", function(){
@@ -162,7 +165,27 @@ useGreenGem.addEventListener("click", function(){
     defend.disabled = true
     enterBtn.disabled = true
 
-    sendRequest(pinNumVal, user, selectedGem)
+    sendRequest(user, selectedGem)
+})
+
+usePurpleGem.addEventListener("click", function () {
+    let selectedGem = "Purple"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("gemingpurple")
+
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border = "7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+    purpleGem.disabled = true
+    defend.disabled = true
+    enterBtn.disabled = true
+
+    sendRequest(user, selectedGem)
 })
 
 dontUseGem.addEventListener("click", function(){
@@ -184,11 +207,11 @@ dontUseGem.addEventListener("click", function(){
     //sendRequest(pinNumVal, user, selectedGem)
 })
 
-function sendRequest(getPin, getUser, getGem){
+function sendRequest(getUser, getGem){
     let url = 'https://api.sheety.co/19ddee0378e78668a6c627707586f1b6/gems/selected';
     let body = {
       selected: {
-        pin: getPin,  
+        //pin: getPin,  
         name: getUser,
         gem: getGem,
         //sumifs: test,
@@ -221,11 +244,13 @@ function enableBtns(){
     let redGem = document.getElementById("redGem")
     let blueGem = document.getElementById("blueGem")
     let greenGem = document.getElementById("greenGem")
+    let purpleGem = document.getElementById("purpleGem")
     let defend = document.getElementById("defend")
 
     redGem.disabled = false
     blueGem.disabled = false
     greenGem.disabled = false
+    purpleGem.disabled = false
     defend.disabled = false
     enterBtn.disabled = true
 
