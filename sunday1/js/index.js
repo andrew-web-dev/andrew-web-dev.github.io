@@ -34,6 +34,14 @@ enterBtn.addEventListener("click", function () {
         return
     }
 
+    if (pinNumVal == 8768) {
+        helloplayer.innerHTML = "<h5>Hello Kaely!</h5>"
+        user = "Kaely Tong"
+        password = 1
+        enableBtns()
+        return
+    }
+
     if (pinNumVal == 2167) {
         helloplayer.innerHTML = "<h5>Hello Ke Xuan!</h5>"
         user = "Ke Xuan"
