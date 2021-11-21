@@ -55,7 +55,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://cdn3.iconfinder.com/data/icons/natural-resources/500/vab1219_41_red_gem_isometric-256.png" class="card-img-top" alt="">
                     <div class="card-body">
-                      <h5 class="card-title">Red Gem</h5>
+                      <h5 class="card-title">Red Gem of Erathia</h5>
                       <p class="card-text">Gain a rematch for 1 time if your opponent wins.</p>
                       <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                       <button type="button" class="btn btn-primary" id="redGem" disabled>Use!</button>
@@ -66,7 +66,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://cdn2.iconfinder.com/data/icons/valuable-items/200/blue_crystal_gem_mineral_money_stone_treasure-256.png" class="card-img-top" alt="">
                     <div class="card-body">
-                      <h5 class="card-title">Blue Gem</h5>
+                      <h5 class="card-title">Blue Gem of the Featherwright</h5>
                       <p class="card-text">Opponent goes first. You choose if your opponent should redo before you beat his/her score.</p>
                       <button type="button" class="btn btn-primary" id="blueGem" disabled>Use!</button>
                     </div>
@@ -76,7 +76,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://cdn2.iconfinder.com/data/icons/valuable-items/200/gem_green_minerals_money_stone_treasure-256.png" class="card-img-top" alt="">
                     <div class="card-body">
-                      <h5 class="card-title">Green Gem</h5>
+                      <h5 class="card-title">Green Gem of the Centauri Moon</h5>
                       <p class="card-text">Get a team mate to assist you this round.</p>
                       <button type="button" class="btn btn-primary" id="greenGem" disabled>Use!</button>
                     </div>
@@ -86,20 +86,89 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://cdn0.iconfinder.com/data/icons/gemstone-hexagon-icon-base-lalunar/400/Hexagon_Icon_8-1024.png" class="card-img-top" alt="" style="width:180px;height:180px;">
                     <div class="card-body">
-                      <h5 class="card-title">Purple Gem</h5>
-                      <p class="card-text">Both players must beat a given time. If both players beats that time, the round is a draw.</p>
+                      <h5 class="card-title">Purple Gem of Psyonic Warriors</h5>
+                      <p class="card-text">Count as a draw if both players can acheive a given time.</p>
                       <button type="button" class="btn btn-primary" id="purpleGem" disabled>Use!</button>
                     </div>
                   </div>
             </div>
-
-            <div class="col">
+            <!-- <div class="col">
                 <div class="card hidden" style="width: 18rem;">
                     <img src="https://cdn1.iconfinder.com/data/icons/unigrid-phantom-security-vol-1/60/013_002_shield_protect_protection_security_secure_guard_guardian_defense_firewall_2-256.png" class="card-img-top" alt="">
                     <div class="card-body">
                       <h5 class="card-title">Defend</h5>
                       <p class="card-text">Don't use any gem (Keep them for later).</p>
                       <button type="button" class="btn btn-primary" id="defend" disabled>Defend!</button>
+                    </div>
+                  </div>
+            </div> -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn2.iconfinder.com/data/icons/diamonds-1/128/DiamondWhite-1024.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Pure White Diamond of Balance</h5>
+                      <p class="card-text">Gain 1 point regardless if you win or lose</p>
+                      <button type="button" class="btn btn-primary" id="whiteGem" disabled>Use!</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn3.iconfinder.com/data/icons/role-playing-game-5/340/rpg_shield_knight_medieval_sword_protection_fantasy-1024.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Shield of the Royal Knights</h5>
+                      <p class="card-text">If you lose the round, it is counted as a draw. Armored class only.</p>
+                      <button type="button" class="btn btn-primary" id="shieldGem" disabled>Use!</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn3.iconfinder.com/data/icons/role-playing-game-6/340/rpg_bow_arrow_archer_medieval_hunter_fantasy-1024.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Frozen Arrow</h5>
+                      <p class="card-text">If you win, add 1 second to another opponents time within this round. Archer class only.</p>
+                      <button type="button" class="btn btn-primary" id="arrowGem" disabled>Use!</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn0.iconfinder.com/data/icons/gamification/512/magic_swrod-1024.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Sword of the Legendary</h5>
+                      <p class="card-text">If you win, you gain additional 2 points. Armored class only.</p>
+                      <button type="button" class="btn btn-primary" id="swordGem" disabled>Use!</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn2.iconfinder.com/data/icons/halloween-cartoon/512/a1616-1024.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Wizard's Hat of Many Spells</h5>
+                      <p class="card-text">If you lose, you can still win with fire, lightning, ice. Wizard class only.</p>
+                      <button type="button" class="btn btn-primary" id="hatGem" disabled>Use!</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn4.iconfinder.com/data/icons/carnival-filled-line/32/crystal_ball_sphere_magic_future_crystal_magical-1024.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Dark Orb of the Void</h5>
+                      <p class="card-text">Your opponent's powerup cannot be used.</p>
+                      <button type="button" class="btn btn-primary" id="orbGem" disabled>Use!</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn4.iconfinder.com/data/icons/virtual-reality-and-drones-4/64/virtual_reality_vr_world_teleport_transfer_woman-1024.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Teleportation</h5>
+                      <p class="card-text">Swap your position with another team mate. Only the first player to choose this power.</p>
+                      <button type="button" class="btn btn-primary" id="teleGem" disabled>Use!</button>
                     </div>
                   </div>
             </div>
@@ -111,9 +180,16 @@
                 <img id="gemingred" src="https://cdn3.iconfinder.com/data/icons/natural-resources/500/vab1219_41_red_gem_isometric-256.png" style="width:200px;height:200px;">
                 <img id="gemingblue" src="https://cdn2.iconfinder.com/data/icons/valuable-items/200/blue_crystal_gem_mineral_money_stone_treasure-256.png" style="width:200px;height:200px;">
                 <img id="geminggreen" src="https://cdn2.iconfinder.com/data/icons/valuable-items/200/gem_green_minerals_money_stone_treasure-256.png" style="width:200px;height:200px;">
-                <img id="gemingnone" src="https://cdn1.iconfinder.com/data/icons/unigrid-phantom-security-vol-1/60/013_002_shield_protect_protection_security_secure_guard_guardian_defense_firewall_2-256.png" style="width:160px;height:160px;">
                 <img id="gemingpurple" src="https://cdn0.iconfinder.com/data/icons/gemstone-hexagon-icon-base-lalunar/400/Hexagon_Icon_8-1024.png" style="width:160px;height:160px;">
+                <img id="gemingnone" src="https://cdn1.iconfinder.com/data/icons/unigrid-phantom-security-vol-1/60/013_002_shield_protect_protection_security_secure_guard_guardian_defense_firewall_2-256.png" style="width:200px;height:200px;">
                 <img id="gemingwhite" src="https://cdn2.iconfinder.com/data/icons/diamonds-1/128/DiamondWhite-1024.png" style="width:200px;height:200px;">
+                <img id="gemingshield" src="https://cdn3.iconfinder.com/data/icons/role-playing-game-5/340/rpg_shield_knight_medieval_sword_protection_fantasy-1024.png" style="width:200px;height:200px;">
+                <img id="gemingarrow" src="https://cdn3.iconfinder.com/data/icons/role-playing-game-6/340/rpg_bow_arrow_archer_medieval_hunter_fantasy-1024.png" style="width:200px;height:200px;">
+                <img id="gemingsword" src="https://cdn0.iconfinder.com/data/icons/gamification/512/magic_swrod-1024.png" style="width:200px;height:200px;">
+                <img id="geminghat" src="https://cdn2.iconfinder.com/data/icons/halloween-cartoon/512/a1616-1024.png" style="width:200px;height:200px;">
+                <img id="gemingorb" src="https://cdn4.iconfinder.com/data/icons/carnival-filled-line/32/crystal_ball_sphere_magic_future_crystal_magical-1024.png" style="width:200px;height:200px;">
+                <img id="gemingtele" src="https://cdn4.iconfinder.com/data/icons/virtual-reality-and-drones-4/64/virtual_reality_vr_world_teleport_transfer_woman-1024.png" style="width:200px;height:200px;">
+                
             </div>
         </div>
 

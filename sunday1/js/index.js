@@ -1,19 +1,35 @@
 let password = 0
 let pinNumVal = 0
 let user = ""
-//these are to disable the buttons when start
 let redGem = document.getElementById("redGem")
 let blueGem = document.getElementById("blueGem")
 let greenGem = document.getElementById("greenGem")
 let purpleGem = document.getElementById("purpleGem")
-let defend = document.getElementById("defend")
+/* let defend = document.getElementById("defend") */
 let enterBtn = document.getElementById("enter")
+
+let whiteGem = document.getElementById("whiteGem")
+let shieldGem = document.getElementById("shieldGem")
+let arrowGem = document.getElementById("arrowGem")
+let swordGem = document.getElementById("swordGem")
+let hatGem = document.getElementById("hatGem")
+let orbGem = document.getElementById("orbGem")
+let teleGem = document.getElementById("teleGem")
+
 
 redGem.disabled = true
 blueGem.disabled = true
 greenGem.disabled = true
 purpleGem.disabled = true
-defend.disabled = true
+
+whiteGem.disabled = true
+shieldGem.disabled = true
+arrowGem.disabled = true
+swordGem.disabled = true
+hatGem.disabled = true
+orbGem.disabled = true
+teleGem.disabled = true
+/* defend.disabled = true */
 
 
 //enter pin number here
@@ -138,13 +154,20 @@ enterBtn.addEventListener("click", function () {
 
 })
 
-// for using the buttons (maybe double declared)
 let useRedGem = document.getElementById("redGem")
 let useBlueGem = document.getElementById("blueGem")
 let useGreenGem = document.getElementById("greenGem")
 let usePurpleGem = document.getElementById("purpleGem")
-let dontUseGem = document.getElementById("defend")
-// for using the buttons (maybe double declared)
+
+let useWhiteGem = document.getElementById("whiteGem")
+let useShieldGem = document.getElementById("shieldGem")
+let useArrowGem = document.getElementById("arrowGem")
+let useSwordGem = document.getElementById("swordGem")
+let useHatGem = document.getElementById("hatGem")
+let useOrbGem = document.getElementById("orbGem")
+let useTeleGem = document.getElementById("teleGem")
+
+/* let dontUseGem = document.getElementById("defend") */
 
 useRedGem.addEventListener("click", function () {
     let selectedGem = "Red"
@@ -159,8 +182,15 @@ useRedGem.addEventListener("click", function () {
     redGem.disabled = true
     blueGem.disabled = true
     greenGem.disabled = true
-    purpleGem.disabled = true
-    defend.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
     enterBtn.disabled = true
 
     sendRequest(user, selectedGem)
@@ -179,8 +209,14 @@ useBlueGem.addEventListener("click", function () {
     redGem.disabled = true
     blueGem.disabled = true
     greenGem.disabled = true
-    purpleGem.disabled = true
-    defend.disabled = true
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
     enterBtn.disabled = true
 
     sendRequest(user, selectedGem)
@@ -199,8 +235,14 @@ useGreenGem.addEventListener("click", function () {
     redGem.disabled = true
     blueGem.disabled = true
     greenGem.disabled = true
-    purpleGem.disabled = true
-    defend.disabled = true
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
     enterBtn.disabled = true
 
     sendRequest(user, selectedGem)
@@ -220,16 +262,42 @@ usePurpleGem.addEventListener("click", function () {
     blueGem.disabled = true
     greenGem.disabled = true
     purpleGem.disabled = true
-    defend.disabled = true
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
     enterBtn.disabled = true
 
     sendRequest(user, selectedGem)
 })
 
-dontUseGem.addEventListener("click", function () {
+/* dontUseGem.addEventListener("click", function(){
     let selectedGem = "Defend"
     let display = document.getElementById("display")
     let geming = document.getElementById("gemingnone")
+    
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border="7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+/* redGem.disabled = true
+blueGem.disabled = true
+greenGem.disabled = true
+defend.disabled = true
+enterBtn.disabled = true */
+
+//sendRequest(pinNumVal, user, selectedGem)
+/* }) */
+
+useWhiteGem.addEventListener("click", function () {
+    let selectedGem = "White"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("gemingwhite")
 
 
     display.innerHTML = "<h1>You chose to use:</h1>"
@@ -239,18 +307,187 @@ dontUseGem.addEventListener("click", function () {
     redGem.disabled = true
     blueGem.disabled = true
     greenGem.disabled = true
-    purpleGem.disabled = true
-    defend.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
     enterBtn.disabled = true
 
-    //sendRequest(user, selectedGem)
+    sendRequest(user, selectedGem)
+})
+
+useShieldGem.addEventListener("click", function () {
+    let selectedGem = "Shield"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("gemingshield")
+
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border = "7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
+    enterBtn.disabled = true
+
+    sendRequest(user, selectedGem)
+})
+
+useArrowGem.addEventListener("click", function () {
+    let selectedGem = "Arrow"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("gemingarrow")
+
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border = "7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
+    enterBtn.disabled = true
+
+    sendRequest(user, selectedGem)
+})
+
+useSwordGem.addEventListener("click", function () {
+    let selectedGem = "Sword"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("gemingsword")
+
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border = "7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
+    enterBtn.disabled = true
+
+    sendRequest(user, selectedGem)
+})
+
+useHatGem.addEventListener("click", function () {
+    let selectedGem = "Hat"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("geminghat")
+
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border = "7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
+    enterBtn.disabled = true
+
+    sendRequest(user, selectedGem)
+})
+
+useOrbGem.addEventListener("click", function () {
+    let selectedGem = "Orb"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("gemingorb")
+
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border = "7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
+    enterBtn.disabled = true
+
+    sendRequest(user, selectedGem)
+})
+
+useTeleGem.addEventListener("click", function () {
+    let selectedGem = "Tele"
+    let display = document.getElementById("display")
+    let geming = document.getElementById("gemingtele")
+
+
+    display.innerHTML = "<h1>You chose to use:</h1>"
+    geming.style.border = "7px solid navy";
+    /* geming.innerHTML = "<img src=" + redurl + " style=" + size + ">"
+    alert (geming.innerHTML) */
+    redGem.disabled = true
+    blueGem.disabled = true
+    greenGem.disabled = true
+
+    whiteGem.disabled = true
+    shieldGem.disabled = true
+    arrowGem.disabled = true
+    swordGem.disabled = true
+    hatGem.disabled = true
+    orbGem.disabled = true
+    teleGem.disabled = true
+    /* defend.disabled = true */
+    enterBtn.disabled = true
+
+    sendRequest(user, selectedGem)
 })
 
 function sendRequest(getUser, getGem) {
     let url = 'https://api.sheety.co/19ddee0378e78668a6c627707586f1b6/gems/selected';
     let body = {
         selected: {
-            //pin: getPin,
+            //pin: getPin,  
             name: getUser,
             gem: getGem,
             //sumifs: test,
@@ -280,19 +517,33 @@ function sendRequest(getUser, getGem) {
 
 function enableBtns() {
 
-    //maybe no need these parts
     let redGem = document.getElementById("redGem")
     let blueGem = document.getElementById("blueGem")
     let greenGem = document.getElementById("greenGem")
     let purpleGem = document.getElementById("purpleGem")
-    let defend = document.getElementById("defend")
-    // maybe no need these parts
+    /* let defend = document.getElementById("defend") */
+    let whiteGem = document.getElementById("whiteGem")
+    let shieldGem = document.getElementById("shieldGem")
+    let arrowGem = document.getElementById("arrowGem")
+    let swordGem = document.getElementById("swordGem")
+    let hatGem = document.getElementById("hatGem")
+    let orbGem = document.getElementById("orbGem")
+    let teleGem = document.getElementById("teleGem")
 
     redGem.disabled = false
     blueGem.disabled = false
     greenGem.disabled = false
     purpleGem.disabled = false
-    defend.disabled = false
+
+    whiteGem.disabled = false
+    shieldGem.disabled = false
+    arrowGem.disabled = false
+    swordGem.disabled = false
+    hatGem.disabled = false
+    orbGem.disabled = false
+    teleGem.disabled = false
+
+    /* defend.disabled = false */
     enterBtn.disabled = true
 
 }
