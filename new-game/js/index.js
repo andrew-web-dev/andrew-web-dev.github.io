@@ -32,7 +32,7 @@ teleGem.disabled = true
 /* defend.disabled = true */
 
 
-//enter pin number here
+//ENTER PIN NUMBER HERE
 
 enterBtn.addEventListener("click", function () {
     let pinNum = document.getElementById("pin")
