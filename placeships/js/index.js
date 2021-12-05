@@ -244,6 +244,109 @@ function done() {
         return
     }
 
+    if (pinNumVal == 1198) {
+        /* helloplayer.innerHTML = "<h5>Hello Loo Kingsley!</h5>" */
+        user = "Loo Kingsley"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 8768) {
+        /* helloplayer.innerHTML = "<h5>Hello Kaely!</h5>" */
+        user = "Kaely Tong"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 2167) {
+        /* helloplayer.innerHTML = "<h5>Hello Ke Xuan!</h5>" */
+        user = "Ke Xuan"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 4162) {
+        /* helloplayer.innerHTML = "<h5>Hello Justen!</h5>" */
+        user = "Justen"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 8972) {
+        /* helloplayer.innerHTML = "<h5>Hello Cheng Eu!</h5>" */
+        user = "Cheng Eu"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 3506) {
+        /* helloplayer.innerHTML = "<h5>Hello Chun Kit!</h5>" */
+        user = "Chun Kit"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 2830) {
+        /* helloplayer.innerHTML = "<h5>Hello Casey!</h5>" */
+        user = "Casey"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 7051) {
+        /* helloplayer.innerHTML = "<h5>Hello Ke Nuo!</h5>" */
+        user = "Ke Nuo"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 9073) {
+        /* helloplayer.innerHTML = "<h5>Hello Chun Pin!</h5>" */
+        user = "Chun Pin"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 7809) {
+        /* helloplayer.innerHTML = "<h5>Hello Joshua Wong!</h5>" */
+        user = "Joshua Wong"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 2105) {
+        /* helloplayer.innerHTML = "<h5>Hello Jin Hao!</h5>" */
+        user = "Jin Hao"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 5086) {
+        /* helloplayer.innerHTML = "<h5>Hello Ee Dong!</h5>" */
+        user = "Ee Dong"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+    }
+
+    if (pinNumVal == 3583) {
+        /* helloplayer.innerHTML = "<h5>Hello Jia Hang!</h5>" */
+        user = "Jia Hang"
+        sendTarget(user, number)
+        gotPin = 1
+        return
+
     if (gotPin == 0) {
         alert ("Wrong Pin Number Entered! Please try again!")
         return
