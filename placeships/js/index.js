@@ -268,7 +268,7 @@ function sendTarget (getUser, getTarget) {
     /* var dBtn4 = document.getElementById("btn4");
     dBtn4.disabled = true */
     
-    let url = 'https://api.sheety.co/f58c5155bb3bf220e75ddee2fefba7ce/ships/place';
+    let url = 'https://api.sheety.co/85bb3100f0a1f1cdedd7a40befe6e03d/ships/place';
     let body = {
         place: {
             //pin: getPin,  
