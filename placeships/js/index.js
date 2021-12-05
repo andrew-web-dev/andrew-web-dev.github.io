@@ -346,6 +346,7 @@ function done() {
         sendTarget(user, number)
         gotPin = 1
         return
+    }
 
     if (gotPin == 0) {
         alert ("Wrong Pin Number Entered! Please try again!")
