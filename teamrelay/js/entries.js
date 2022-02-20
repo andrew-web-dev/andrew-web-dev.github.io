@@ -231,7 +231,7 @@ function SaveNow(getTeam, getStacker, getResult, getPenalty, getRound){
 
 function LoadMembers(selTeam){
     if (selTeam == "Red"){
-        alert ("Loaded all Red team members!")
+        //alert ("Loaded all Red team members!")
 
         let member1 = document.getElementById("load1")
         let member2 = document.getElementById("load2")
@@ -255,7 +255,7 @@ function LoadMembers(selTeam){
 
     }
     if (selTeam == "Blue"){
-        alert ("Loaded all Blue team members!")
+        //alert ("Loaded all Blue team members!")
         let member1 = document.getElementById("load1")
         let member2 = document.getElementById("load2")
         let member3 = document.getElementById("load3")
